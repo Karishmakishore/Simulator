@@ -1,0 +1,27 @@
+# Byte-compiled / env
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset and runs (if large)
+data/
+runs/
+
+# OS files
+Thumbs.db
+
+# Python specific
+*.egg-info/
+dist/
+build/

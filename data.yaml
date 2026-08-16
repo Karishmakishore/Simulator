@@ -1,0 +1,8 @@
+path: /Users/karishmakishore/Desktop/Sim/datasets/simulator-2-3/ # root directory
+train: train/images
+val: valid/images
+test: test/images
+
+# Classes
+nc: 16  # replace with your number of classes
+names: ['Oil Tanker', 'Others', 'RORO', 'aircraft carrier', 'bulk carrier', 'canoe', 'cargo ship', 'coaster', 'container ship', 'cruise ship', 'fishing boat', 'passenger ship', 'sailing_ship', 'speedboat', 'submarine', 'warship']  # replace with your class names
