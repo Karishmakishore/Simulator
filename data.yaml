@@ -1,4 +1,4 @@
-path: /Users/karishmakishore/Desktop/Sim/datasets/simulator-2-3/ # root directory
+path: /home/aniket/Desktop/YOLO_tut/Simulator-2-1 # root directory
 train: train/images
 val: valid/images
 test: test/images

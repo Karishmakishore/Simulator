@@ -1,8 +1,5 @@
-import os
 from roboflow import Roboflow
-
-# Read Roboflow API key from environment variable for security
-rf = Roboflow(api_key=os.getenv("ROBOFLOW_API_KEY"))
-project = rf.workspace("simulator-flvry").project("simulator-2")
-version = project.version(3)
+rf = Roboflow(api_key="C5IyjZmvv6bNThZZ7pHH")
+project = rf.workspace("ship-dataset-whmf4").project("simulator-2-6pssz")
+version = project.version(1)
 dataset = version.download("yolov8")
